@@ -1,0 +1,131 @@
+body{
+    background-image: url(../images/atardecer.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: rgba(248, 246, 240, 0.442);
+    border-radius: 10px;
+    font-family: cursive;
+    border: solid rgba(165, 42, 42, 0.6);
+    margin: 1cm;
+}
+.formulario h2{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+    font-family: cursive;
+}
+.formulario form{
+    text-align: center;
+}
+#button{
+    text-align: center;
+    margin-left: 5cm;
+}
+.formulario i{
+    font-size: 1cm;
+    color: lightblue;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+nav{
+    background: rgba(39, 131, 159, 0.926);
+    height: 80px;
+    width: 100%;
+
+}
+.enlace{
+    position: absolute;
+    padding: 30px 60px;
+}
+.logo{
+    height: 75px;
+    width: 75px;
+    border-radius: 1cm;
+    transform: translate(-50%, -37%);
+}
+.logo:hover{
+    transform: scale(1.2)
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-align: uppercase;
+}
+li a.active, li a:hover{
+    background: #47d7d2;
+    transition: .5s;
+    border-radius: 2cm;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+section{
+    background: url(../images/barco.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+.titulo{
+    text-align: center;
+    position: absolute;
+    transform: translate(-100%, -15%);
+    width: 700px;
+    background: rgba(300, 300, 300, 300);
+    background-color: rgba(144, 161, 158, 0.303);
+    border-radius: 20px;
+    font-family: cursive;
+    margin: 6cm;
+    margin-left: 29cm;
+
+}
+
+
+.titulo h1{
+    font-size: 75px;
+    color: rgba(10, 44, 81, 0.83);
+    text-shadow:4px 4px 0 rgba(208, 216, 241, 0.456);
+    text-align: center;
+    
+}
+.titulo h3{
+    font-size: 35px;
+    color: rgb(242, 238, 238);
+    font-family: cursive;
+    text-align: justify;
+
+}
